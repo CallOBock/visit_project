@@ -15,13 +15,14 @@ export const Container = styled.div`
     background-image: linear-gradient(-45deg, #12c2e9, #c471ed, #f64f59);
     animation: ${AnimateBG} 30s ease infinite;
     justify-content: center;
+    align-items: center;
 
     &::after {
         content: '';
         width: 100%;
         height: 100%;
         position: absolute;
-        background-color: #0000004f;
+        background-color: rgba(0, 0, 0, 0.07);
     }
 `
 
