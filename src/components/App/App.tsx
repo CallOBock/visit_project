@@ -1,5 +1,5 @@
 import React from 'react'
-import Content from '../Ring/Content';
+import Content from '../Content/Content';
 
 import { Container } from './style'
 
